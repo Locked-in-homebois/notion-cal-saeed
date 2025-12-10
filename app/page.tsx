@@ -2,14 +2,17 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-6 sm:p-12">
-      <div className="relative w-full h-64 md:w-3/4 md:h-96">
+    <main className="flex flex-col items-center pt-24 pb-12 p-4 text-center">
+      <div className="mx-auto w-40 h-24 mb-2">
         <Image
-          src="/notion-cal-main.png"
+          src="/notion-img.png"
           alt="Notion Cal main picture"
-          width={1200}
-          height={600}
+          width={170}
+          height={170}
         />
+        <div>
+        <h1 className="text-6xl balance-text font-bold mb-4">Its time.</h1>
+        </div>
       </div>
     </main>
   );
