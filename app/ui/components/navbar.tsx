@@ -13,9 +13,9 @@ export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-gray-800 text-white p-4">
-            <div className="container mx-auto flex justify-between items-center">
-                <div className="text-lg font-bold">MyApp</div>
+        <nav className="bg-white-800 text-black p-4 shadow-md">
+            <div className="container mx-auto flex justify-center items-center relative">
+                <div className="text-lg font-bold pr-4 absolute left-4">MOFOS</div>
                 <div className="hidden md:flex space-x-4">
                     {navLinks.map((link) => (
                         <Link key={link.href} href={link.href} className="hover:underline">
