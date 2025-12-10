@@ -1,19 +1,25 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col items-center pt-24 pb-12 p-4 text-center">
-      <div className="mx-auto w-40 h-24 mb-2">
+    <main className="flex flex-col items-center justify-center p-6 ">
+
         <Image
           src="/notion-img.png"
           alt="Notion Cal main picture"
           width={170}
           height={170}
         />
-        <div>
-        <h1 className="text-6xl balance-text font-bold mb-4">Its time.</h1>
-        </div>
-      </div>
+
+
+        <h1 className="text-6xl font-bold">Its time.</h1>
+        <p className="p-4 text-center text-xl sentence-box max-w-lg">
+          All of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life.
+        </p>
+        <Link href="/">
+        <button className="button-style bg-black text-white">get notion cal</button>
+        </Link>
     </main>
   );
 }
