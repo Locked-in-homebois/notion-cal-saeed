@@ -14,8 +14,8 @@ export function Navbar() {
 
     return (
         <nav className="bg-white-800 text-black p-4 shadow-md">
-            <div className="container mx-auto flex justify-center items-center relative">
-                <div className="text-lg font-bold pr-4 absolute left-4">MOFOS</div>
+            <div className="container mx-auto flex justify-between md:justify-center items-center relative">
+                <div className="text-lg font-bold p-4 absolute left-4">Notion Calendar</div>
                 <div className="hidden md:flex space-x-4">
                     {navLinks.map((link) => (
                         <Link key={link.href} href={link.href} className="hover:bg-gray-200 px-3 py-2 rounded-md">
@@ -33,7 +33,7 @@ export function Navbar() {
                 </div>
             </div>
             {isOpen && (
-                <div className="md:hidden mt-2 space-y-2">
+                <div className="md:hidden mt-4 space-y-4 justify-center items-center flex flex-col">
                     {navLinks.map((link) => (
                         <Link
                             key={link.href}

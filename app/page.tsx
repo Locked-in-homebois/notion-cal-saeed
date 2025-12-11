@@ -24,7 +24,7 @@ export default function HomePage() {
         </button>
         </Link>
 
-        <Image className="p-6"
+        <Image className="md:rounded md:shadow-2xl p-10"
           src = "/notion-phone.png"
           alt="Notion Cal second picture"
           width={1500}
