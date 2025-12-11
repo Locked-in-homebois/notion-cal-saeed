@@ -18,7 +18,7 @@ export function Navbar() {
                 <div className="text-lg font-bold pr-4 absolute left-4">MOFOS</div>
                 <div className="hidden md:flex space-x-4">
                     {navLinks.map((link) => (
-                        <Link key={link.href} href={link.href} className="hover:underline">
+                        <Link key={link.href} href={link.href} className="hover:bg-gray-200 px-3 py-2 rounded-md">
                             {link.label}
                         </Link>
                     ))}

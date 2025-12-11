@@ -10,11 +10,12 @@ export default function HomePage() {
           alt="Notion Cal main picture"
           width={170}
           height={170}
+          draggable="false"
         />
 
 
         <h1 className="text-6xl font-bold">Its time.</h1>
-        <p className="p-4 text-center text-xl sentence-box max-w-lg">
+        <p className="p-4 text-center text-xl max-w-lg">
           All of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life.
         </p>
         <Link href="/">
@@ -22,6 +23,14 @@ export default function HomePage() {
           Get Notion Calendar free
         </button>
         </Link>
+
+        <Image className="p-6"
+          src = "/notion-phone.png"
+          alt="Notion Cal second picture"
+          width={1500}
+          height={600}
+          draggable="false"
+        />
     </main>
   );
 }
