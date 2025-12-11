@@ -46,7 +46,7 @@ export default function HomePage() {
           <h3 className="p-6 font-extrabold text-2xl mb-0">
             See Your schedule at a Glance        
           </h3>
-          <p className="p-6 text-md max-w-lg mb-0">
+          <p className="p-6 text-lg max-w-lg mb-0">
           Join meetings directly from the menu bar so you can stay focused on the work that matters.
           </p>
           <Image className="rounded-b-lg"
