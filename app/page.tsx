@@ -18,7 +18,7 @@ export default function HomePage() {
         <p className="p-4 text-center text-xl max-w-lg">
           All of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life.
         </p>
-        <Link href="/">
+        <Link className="mb-8" href="/">
         <button className="bg-black text-white font-semibold px-4 py-2 rounded-md hover:bg-gray-800 transition">
           Get Notion Calendar free
         </button>
