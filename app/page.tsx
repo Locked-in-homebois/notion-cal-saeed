@@ -36,6 +36,7 @@ export default function HomePage() {
         </h1>
 
         <div className="container w-270 bg-[#f6f5f4] rounded-lg shadow-2xl mt-16 ">
+          
           <Image className="m-6"
             src="flash-outline.svg"
             alt="Flash icon"
@@ -43,12 +44,14 @@ export default function HomePage() {
             height={30}
             draggable="false"
           />
+
           <h3 className="p-6 font-extrabold text-2xl mb-0">
             See Your schedule at a Glance        
           </h3>
           <p className="p-6 text-lg max-w-lg mb-0">
           Join meetings directly from the menu bar so you can stay focused on the work that matters.
           </p>
+
           <Image className="rounded-b-lg"
           src="/menu-bar.avif"
           alt="Notion Cal menu bar picture"
@@ -56,6 +59,13 @@ export default function HomePage() {
           height={600}
           draggable="false"
           />
+
+        </div>
+
+        <div className="container w-270 bg-[#f6f5f4] rounded-lg shadow-2xl mt-16 ">
+          <p>
+            hello bchs
+          </p>
         </div>
     </main>
   );
