@@ -13,7 +13,7 @@ export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 bg-white text-black p-4 shadow-md">
+        <nav className="sticky top-0 bg-white text-black font-bold p-4 shadow-md">
             <div className="container mx-auto flex justify-between md:justify-center items-center relative">
                 <div className="text-lg font-bold p-4 absolute left-4">Notion Calendar</div>
                 <div className="hidden md:flex space-x-4">

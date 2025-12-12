@@ -35,7 +35,7 @@ export default function HomePage() {
           Time management simplified.
         </h1>
 
-        <div className="container w-270 bg-[#f6f5f4] rounded-lg shadow-2xl mt-16 ">
+        <div className="container md:w-270 w-90 bg-[#f6f5f4] rounded-lg shadow-xl mt-16 ">
           
           <Image className="m-6"
             src="flash-outline.svg"
@@ -62,9 +62,9 @@ export default function HomePage() {
 
         </div>
 
-        <div className=" container grid grid-cols-2 grid-rows-2 md:w-270 mt-16 gap-4 ">
+        <div className=" container grid md:grid-cols-2 grid-rows-2 mt-16 gap-4 md:w-270 w-90 ">
 
-          <div className="md:max-w-4xl rounded-lg bg-[#f6f5f4]">
+          <div className="md:max-w-4xl rounded-lg bg-[#f6f5f4] shadow-xl ">
             <Image className="m-6"
               src="/time.svg"
               alt="Time icon"
@@ -90,7 +90,7 @@ export default function HomePage() {
 
           </div>
 
-          <div className="rounded-xl bg-[#f6f5f4] w-full h-full">
+          <div className="rounded-xl bg-[#f6f5f4] w-full h-full shadow-xl">
             <Image className="m-6"
               src="/checkmark-done-circle.svg"
               alt="Checkmark icon"
@@ -115,7 +115,7 @@ export default function HomePage() {
             />
           </div>
           
-          <div className="rounded-xl bg-[#f6f5f4] w-full h-full">
+          <div className="rounded-xl bg-[#f6f5f4] w-full h-full shadow-xl">
             <Image className="m-6"
               src="/terminal.svg"
               alt="Terminal icon"
@@ -140,7 +140,7 @@ export default function HomePage() {
             />
           </div>
 
-          <div className="rounded-xl   bg-[#f6f5f4] w-full h-full">
+          <div className="rounded-xl   bg-[#f6f5f4] w-full h-full shadow-xl">
             <Image className="m-6"
               src="/language.svg"
               alt="Language icon"
