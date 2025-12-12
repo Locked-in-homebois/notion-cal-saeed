@@ -2,34 +2,34 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Hero() {
-    return (
-        <main className="flex flex-col items-center justify-center ">
-        <Image className="p-6"
-          src="/notion-img.png"
-          alt="Notion Cal main picture"
-          width={170}
-          height={170}
-          draggable="false"
-        />
+  return (
+    <main className="flex flex-col items-center justify-center ">
+      <Image className="p-6"
+        src="/notion-img.png"
+        alt="Notion Cal main picture"
+        width={170}
+        height={170}
+        draggable="false"
+      />
 
 
-        <h1 className="text-6xl font-bold">Its time.</h1>
-        <p className="p-4 text-center text-xl max-w-lg">
-          All of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life.
-        </p>
-        <Link className="md:mb-8" href="/">
+      <h1 className="text-6xl font-bold">Its time.</h1>
+      <p className="p-4 text-center text-xl max-w-lg">
+        All of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life.
+      </p>
+      <Link className="md:mb-8" href="/">
         <button className="bg-black text-white font-semibold px-4 py-2 rounded-md hover:bg-gray-800 transition">
           Get Notion Calendar free
         </button>
-        </Link>
+      </Link>
 
-        <Image className="md:shadow-xl bg-white p-4 rounded-[20px] mt-16"
-          src = "/notion-phone.png"
-          alt="Notion Cal second picture"
-          width={1500}
-          height={600}
-          draggable="false"
-        />
-        </main>
-    );
+      <Image className="md:shadow-xl bg-white p-4 rounded-[20px] mt-16"
+        src="/notion-phone.png"
+        alt="Notion Cal second picture"
+        width={1500}
+        height={600}
+        draggable="false"
+      />
+    </main>
+  );
 }

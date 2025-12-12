@@ -7,7 +7,7 @@ const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/contact-us", label: "Contact" },
- ];
+];
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
