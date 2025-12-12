@@ -24,7 +24,7 @@ export default function HomePage() {
         </button>
         </Link>
 
-        <Image className="md:rounded md:shadow-2xl p-10"
+        <Image className="md:shadow-xl bg-white p-4 rounded-[20px] mt-16"
           src = "/notion-phone.png"
           alt="Notion Cal second picture"
           width={1500}
@@ -62,7 +62,7 @@ export default function HomePage() {
 
         </div>
 
-        <div className=" container grid md:grid-cols-2 grid-rows-2 mt-16 gap-4 md:w-270 w-90 ">
+        <div className=" container grid md:grid-cols-2 grid-rows-2 mt-16 gap-4 md:w-270 w-90 flex-1"> 
 
           <div className="md:max-w-4xl rounded-lg bg-[#f6f5f4] shadow-xl ">
             <Image className="m-6"
