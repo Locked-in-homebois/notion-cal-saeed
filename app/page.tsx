@@ -2,6 +2,7 @@ import Hero from "./ui/components/hero";
 import FirstCompo from "./ui/components/firstcompo";
 import SecCompo from "./ui/components/seccompo";
 import ThirdCompo from "./ui/components/thirdcompo";
+import FourthCompo from "./ui/components/fourthcompo";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <FirstCompo />
       <SecCompo />
       <ThirdCompo />
+      <FourthCompo />
     </>
   );
 } 

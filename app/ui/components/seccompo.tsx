@@ -2,7 +2,6 @@ import Image from 'next/image';
 
 export default function SecCompo() {
   return (
-    <main className="flex flex-col items-center justify-center ">
               <main className="flex flex-col items-center justify-center ">
         
                 <h1 className="text-4xl max-w-lg font-extrabold justify-center text-center mt-16">
@@ -92,6 +91,5 @@ export default function SecCompo() {
                     </div>
                   </div>
         </main>
-    </main>
   );
 }
