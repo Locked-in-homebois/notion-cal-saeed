@@ -5,6 +5,7 @@ import ThirdCompo from "./ui/components/thirdcompo";
 import FourthCompo from "./ui/components/fourthcompo";
 import FourthCompo2 from "./ui/components/fourthcompo2";
 import FifthCompo from "./ui/components/fifthcompo";
+import Footer from "./ui/components/footer";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <FourthCompo />
       <FourthCompo2 />
       <FifthCompo />
+      <Footer />
     </>
   );
 } 

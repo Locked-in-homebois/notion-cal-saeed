@@ -12,7 +12,7 @@ export default function FifthCompo() {
                 Unlock a better way to manage your time and life.
             </p>
 
-            <a href="/about" className='text-blue-500 hover:text-black hover:underlined'>
+            <a href="/about" className='text-blue-500 hover:text-black hover:underline'>
                 Get Notion Calendar for free
             </a>
 
