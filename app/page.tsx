@@ -4,6 +4,7 @@ import SecCompo from "./ui/components/seccompo";
 import ThirdCompo from "./ui/components/thirdcompo";
 import FourthCompo from "./ui/components/fourthcompo";
 import FourthCompo2 from "./ui/components/fourthcompo2";
+import FifthCompo from "./ui/components/fifthcompo";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <ThirdCompo />
       <FourthCompo />
       <FourthCompo2 />
+      <FifthCompo />
     </>
   );
 } 
