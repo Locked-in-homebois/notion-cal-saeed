@@ -18,7 +18,7 @@ const navLinks = [
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="sticky top-0.5 bg-white text-black p-4  shadow-md font-bold">
+        <nav className="sticky top-0 bg-white text-black p-4  shadow-md font-bold">
             <div className="container flex mx-auto md:justify-center justify-between items-center relative">
                 <div className="absolute left-4 justify-between items-center flex">
                     <Image

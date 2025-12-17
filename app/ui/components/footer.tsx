@@ -3,58 +3,79 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <div className="w-full bg-gray-100 py-8 px-4 flex flex-col md:flex-row justify-around items-center">
+        <div className="w-full bg-white py-8 px-4 flex flex-col md:flex-row justify-around items-center border-t-2 border-gray-100">
 
-            <div>
-                <Image
-                    src="/notion-calendar-icom.svg"
-                    alt='notion icon'
-                    width={50}
-                    height={50}
-                />
-                <h2 className="text-2xl font-bold mb-4">MyCompany</h2>
-                <p className="text-gray-600">© 2024 MyCompany. All rights reserved.</p>
+            <div className="flex flex-col gap-1">
+                <div className='flex items-center gap-2'>
+                    <Image
+                        src="/notion-calendar-icom.svg"
+                        alt='notion icon'
+                        width={50}
+                        height={50}
+                    />
+                    <h2 className="text-3xl font-bold gap-3">Notion</h2>
+                </div>
+
+                <div className='pt-3'>
+                    <Image
+                        src="/gm-icon.svg"
+                        alt='gm icon'
+                        width={20}
+                        height={20}
+                    />
+
+                </div>
+
+                <div>
+                    <p className="text-gray-600 mt-2">© 2025 MyCompany. All rights reserved.</p>
+                </div>
+
+
             </div>
 
-            <div className="flex flex-col gap-4 justify-center items-center">
-                <p>Company</p>
-                <p className="flex flex-col mx-2 my-2 text-md text-gray-600 text-center justify-center items-center hover:text-black gap-3">
+
+            <div className="flex flex-col justify-center items-center">
+                <p className='font-bold pb-1'>Company</p>
+                <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
+                    <Link href="/privacy-policy" className='hover:text-black'>About Us</Link>
+                    <Link href="/terms-of-service">Careers</Link>
+                    <Link href="/contact">Security</Link>
+                    <Link href="/blog" >Blog</Link>
+                </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center">
+                <p className='font-bold pb-2'>Company</p>
+                <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
                     <Link href="/privacy-policy">About Us</Link>
                     <Link href="/terms-of-service">Careers</Link>
                     <Link href="/contact">Security</Link>
-                    <Link href="/blog">Blog</Link>
-                </p>
+                    <Link href="/blog" >Blog</Link>
+                </div>
             </div>
 
-            <div className="flex flex-col gap-4 justify-center items-center">
-                <p>Company</p>
-                <p className="text-md text-gray-600 text-center justify-center items-center gap-3">
-                    <Link href="/privacy-policy" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">About Us</Link>
-                    <Link href="/terms-of-service" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Careers</Link>
-                    <Link href="/contact" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Security</Link>
-                    <Link href="/blog" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Blog</Link>
-                </p>
+
+            <div className="flex flex-col justify-center items-center">
+                <p className='font-bold pb-2'>Company</p>
+                <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
+                    <Link href="/privacy-policy">About Us</Link>
+                    <Link href="/terms-of-service">Careers</Link>
+                    <Link href="/contact">Security</Link>
+                    <Link href="/blog" >Blog</Link>
+                </div>
             </div>
 
-            <div className="flex flex-col gap-4 justify-center items-center">
-                <p>Company</p>
-                <p className="text-md text-gray-600 text-center justify-center items-center gap-3">
-                    <Link href="/privacy-policy" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">About Us</Link>
-                    <Link href="/terms-of-service" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Careers</Link>
-                    <Link href="/contact" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Security</Link>
-                    <Link href="/blog" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Blog</Link>
-                </p>
+
+            <div className="flex flex-col justify-center items-center">
+                <p className='font-bold pb-2'>Company</p>
+                <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
+                    <Link href="/privacy-policy">About Us</Link>
+                    <Link href="/terms-of-service">Careers</Link>
+                    <Link href="/contact">Security</Link>
+                    <Link href="/blog" >Blog</Link>
+                </div>
             </div>
 
-            <div className="flex flex-col gap-4 justify-center items-center">
-                <p>Company</p>
-                <p className="text-md text-gray-600 text-center justify-center items-center gap-3">
-                    <Link href="/privacy-policy" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">About Us</Link>
-                    <Link href="/terms-of-service" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Careers</Link>
-                    <Link href="/contact" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Security</Link>
-                    <Link href="/blog" className="flex flex-col text-gray-600 hover:underline mx-2 my-2">Blog</Link>
-                </p>
-            </div>
         </div>
     );
 }           
