@@ -1,29 +1,66 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Instagram, Twitter } from "lucide-react";
 
 export default function Footer() {
     return (
         <div className="w-full bg-white py-8 px-4 flex flex-col md:flex-row justify-around items-center border-t-2 border-gray-100">
 
             <div className="flex flex-col gap-1">
-                <div className='flex items-center gap-2'>
+                <div className='flex items-center gap-1'>
                     <Image
-                        src="/notion-calendar-icom.svg"
+                        src="/notion-icon.svg"
                         alt='notion icon'
                         width={50}
                         height={50}
                     />
-                    <h2 className="text-3xl font-bold gap-3">Notion</h2>
+                    <h2 className="text-3xl font-bold">otion</h2>
                 </div>
 
-                <div className='pt-3'>
-                    <Image
-                        src="/gm-icon.svg"
-                        alt='gm icon'
-                        width={20}
-                        height={20}
-                    />
+                <div className='flex items-center gap-2 pt-4 pb-2'>
+                    <Link href="https://youtu.be/eJXD-flBfbs?si=bRaFqAMItTBCpJKK">
+                        <Instagram
+                            width={20}
+                            height={20}
+                            className='hover:bg-gray-300'
+                        />
+                    </Link>
 
+                    <Link href="https://youtu.be/eJXD-flBfbs?si=bRaFqAMItTBCpJKK">
+                        <Twitter
+                            width={20}
+                            height={20}
+                            className='hover:bg-gray-300'
+                        />
+                    </Link>
+
+                    <Link href="https://youtu.be/eJXD-flBfbs?si=bRaFqAMItTBCpJKK">
+                        <Instagram
+                            width={20}
+                            height={20}
+                            className='hover:bg-gray-300'
+                        />
+                    </Link>
+
+                    <Link href="https://youtu.be/eJXD-flBfbs?si=bRaFqAMItTBCpJKK">
+                        <Twitter
+                            width={20}
+                            height={20}
+                            className='hover:bg-gray-300'
+                        />
+                    </Link>
+                </div>
+
+                <div className="flex items-center gap-2 pt-4 pb-2">
+                    <button className="px-3 py-1 border border-[#cbcbcb] bg-white text-black rounded-md hover:bg-gray-200 transition">
+                        English
+                    </button>
+                </div>
+
+
+
+                <div>
+                    <Link href="" className="text-gray-600 hover:underline hover:text-blue-500 mt-2">Cookies settings</Link>
                 </div>
 
                 <div>
