@@ -46,7 +46,7 @@ export default function Footer() {
                         <Twitter
                             width={20}
                             height={20}
-                            className='hover:bg-gray-300'
+                            className='hover:bg-gray-300 transition-colors'
                         />
                     </Link>
                 </div>
@@ -106,7 +106,7 @@ export default function Footer() {
             <div className="flex flex-col justify-center items-center">
                 <p className='font-bold pb-2'>Company</p>
                 <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
-                    <Link href="/privacy-policy" className='hover:underline'>About Us</Link>
+                    <Link href="/privacy-policy" className='hover:underline-blue'>About Us</Link>
                     <Link href="/terms-of-service" className='hover:underline'>Careers</Link>
                     <Link href="/contact" className='hover:underline'>Security</Link>
                     <Link href="/blog" className='hover:underline'>Blog</Link>
