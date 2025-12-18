@@ -64,7 +64,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <p className="text-gray-600 mt-2">© 2025 MyCompany. All rights reserved.</p>
+                    <p className="text-gray-600 mt-2 pb-4">© 2025 MyCompany. All rights reserved.</p>
                 </div>
 
 
@@ -74,31 +74,20 @@ export default function Footer() {
             <div className="flex flex-col justify-center items-center">
                 <p className='font-bold pb-1'>Company</p>
                 <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
-                    <Link href="/privacy-policy" className='hover:text-black'>About Us</Link>
-                    <Link href="/terms-of-service">Careers</Link>
-                    <Link href="/contact">Security</Link>
-                    <Link href="/blog" >Blog</Link>
+                    <Link href="/privacy-policy" className='hover:underline'>About Us</Link>
+                    <Link href="/terms-of-service" className='hover:underline' >Careers</Link>
+                    <Link href="/contact" className='hover:underline'>Security</Link>
+                    <Link href="/blog" className='hover:underline'>Blog</Link>
                 </div>
             </div>
 
             <div className="flex flex-col justify-center items-center">
                 <p className='font-bold pb-2'>Company</p>
                 <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
-                    <Link href="/privacy-policy">About Us</Link>
-                    <Link href="/terms-of-service">Careers</Link>
-                    <Link href="/contact">Security</Link>
-                    <Link href="/blog" >Blog</Link>
-                </div>
-            </div>
-
-
-            <div className="flex flex-col justify-center items-center">
-                <p className='font-bold pb-2'>Company</p>
-                <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
-                    <Link href="/privacy-policy">About Us</Link>
-                    <Link href="/terms-of-service">Careers</Link>
-                    <Link href="/contact">Security</Link>
-                    <Link href="/blog" >Blog</Link>
+                    <Link href="/privacy-policy" className='hover:underline'>About Us</Link>
+                    <Link href="/terms-of-service" className='hover:underline'>Careers</Link>
+                    <Link href="/contact" className='hover:underline'>Security</Link>
+                    <Link href="/blog" className='hover:underline'>Blog</Link>
                 </div>
             </div>
 
@@ -106,10 +95,21 @@ export default function Footer() {
             <div className="flex flex-col justify-center items-center">
                 <p className='font-bold pb-2'>Company</p>
                 <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
-                    <Link href="/privacy-policy">About Us</Link>
-                    <Link href="/terms-of-service">Careers</Link>
-                    <Link href="/contact">Security</Link>
-                    <Link href="/blog" >Blog</Link>
+                    <Link href="/privacy-policy" className='hover:underline'>About Us</Link>
+                    <Link href="/terms-of-service" className='hover:underline'>Careers</Link>
+                    <Link href="/contact" className='hover:underline'>Security</Link>
+                    <Link href="/blog" className='hover:underline'>Blog</Link>
+                </div>
+            </div>
+
+
+            <div className="flex flex-col justify-center items-center">
+                <p className='font-bold pb-2'>Company</p>
+                <div className='flex flex-col text-gray-600 mx-2 my-2 gap-1'>
+                    <Link href="/privacy-policy" className='hover:underline'>About Us</Link>
+                    <Link href="/terms-of-service" className='hover:underline'>Careers</Link>
+                    <Link href="/contact" className='hover:underline'>Security</Link>
+                    <Link href="/blog" className='hover:underline'>Blog</Link>
                 </div>
             </div>
 
