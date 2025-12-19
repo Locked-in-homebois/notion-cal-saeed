@@ -8,7 +8,7 @@ export default function FourthCompo() {
         Fully integrated with your Notion workspace.
       </h1>
 
-      <div className=" container grid md:grid-cols-3 mt-16 gap-4 md:w-270 w-90 flex-1">
+      <div className="grid md:grid-cols-3 mt-16 gap-4 md:w-270 w-90 flex-1">
 
         <div className="md:max-w-4xl rounded-lg bg-[#f6f5f4] shadow-xl ">
           <Image className="m-6"

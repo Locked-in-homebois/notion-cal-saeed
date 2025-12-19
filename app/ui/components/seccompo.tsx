@@ -8,7 +8,7 @@ export default function SecCompo() {
         Fully integrated with your Notion workspace.
       </h1>
 
-      <div className="container md:w-270 w-90 bg-[#f6f5f4] rounded-lg shadow-xl mt-16 ">
+      <div className=" md:w-270 w-90 bg-[#f6f5f4] rounded-lg shadow-xl mt-16 ">
 
         <Image className="m-6"
           src="refresh-circle.svg"
@@ -37,7 +37,7 @@ export default function SecCompo() {
       </div>
 
 
-      <div className=" container grid md:grid-cols-2 mt-16 gap-4 md:w-270 w-90 flex-1">
+      <div className="grid md:grid-cols-2 mt-16 gap-4 md:w-270 w-90 flex-1">
 
         <div className="md:max-w-4xl rounded-lg bg-[#f6f5f4] shadow-xl ">
           <Image className="m-6"

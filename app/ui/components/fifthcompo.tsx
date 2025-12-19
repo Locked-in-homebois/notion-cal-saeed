@@ -16,7 +16,7 @@ export default function FifthCompo() {
                 Get Notion Calendar for free
             </a>
 
-            <div className=" container grid md:grid-cols-2 mt-16 gap-4 md:w-270 w-90 flex-1">
+            <div className="grid md:grid-cols-2 mt-16 gap-4 md:w-270 w-90 flex-1">
 
                 <div className="md:max-w-4xl rounded-lg bg-[#f6f5f4] shadow-xl ">
 

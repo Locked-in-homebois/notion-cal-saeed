@@ -5,7 +5,7 @@ import ThirdCompo from "./ui/components/thirdcompo";
 import FourthCompo from "./ui/components/fourthcompo";
 import FourthCompo2 from "./ui/components/fourthcompo2";
 import FifthCompo from "./ui/components/fifthcompo";
-import Qanda from "./ui/components/qanda";
+import QNASection from "./ui/components/QNASection";
 import Footer from "./ui/components/footer";
 
 export default function HomePage() {
@@ -18,7 +18,7 @@ export default function HomePage() {
       <FourthCompo />
       <FourthCompo2 />
       <FifthCompo />
-      <Qanda />
+      <QNASection />
       <Footer />
     </>
   );

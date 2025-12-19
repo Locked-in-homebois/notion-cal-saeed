@@ -22,7 +22,7 @@ export function Navbar() {
             <div className="container flex mx-auto md:justify-center justify-between items-center relative">
                 <div className="absolute left-4 justify-between items-center flex">
                     <Image
-                        src="/notion-calendar-icom.svg"
+                        src="/notion-icon.svg"
                         alt="Notion Logo"
                         width={40}
                         height={40}
