@@ -30,7 +30,7 @@ export function Navbar() {
                 </div>
                 <div className="hidden md:flex space-x-4">
                     {navLinks.map((link) => (
-                        <Link key={link.href} href={link.href} className="">
+                        <Link key={link.label} href={link.href} className="">
                             {link.label}
                         </Link>
                     ))}
@@ -45,7 +45,7 @@ export function Navbar() {
             {isOpen && (
                 <div className="md:hidden flex flex-col justify-center items-center gap-3 mt-4">
                     {navLinks.map((link) => (
-                        <Link key={link.href} href={link.href} onClick={() => setIsOpen(false)} className="hover:underline">
+                        <Link key={link.label} href={link.href} onClick={() => setIsOpen(false)} className="hover:underline">
                             {link.label}
                         </Link>
                     ))}
