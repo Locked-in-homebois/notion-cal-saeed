@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Instagram, Twitter } from "lucide-react";
+import { Instagram, Twitter, Linkedin, Twitch } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -35,7 +35,7 @@ export default function Footer() {
                     </Link>
 
                     <Link href="https://youtu.be/eJXD-flBfbs?si=bRaFqAMItTBCpJKK">
-                        <Instagram
+                        <Linkedin
                             width={20}
                             height={20}
                             className='hover:bg-gray-300'
@@ -43,7 +43,7 @@ export default function Footer() {
                     </Link>
 
                     <Link href="https://youtu.be/eJXD-flBfbs?si=bRaFqAMItTBCpJKK">
-                        <Twitter
+                        <Twitch
                             width={20}
                             height={20}
                             className='hover:bg-gray-300 transition-colors'

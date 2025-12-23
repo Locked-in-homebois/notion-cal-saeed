@@ -19,7 +19,7 @@ const quests = [
 
 const QNASection = () => {
     return (
-        <div className="flex flex-col items-center mt-20">
+        <div className="flex flex-col items-center mt-20 pb-20">
             <div className="container bg- mx-auto px-4">
                 <h1 className="text-2xl font-bold uppercase">
                     question & answer

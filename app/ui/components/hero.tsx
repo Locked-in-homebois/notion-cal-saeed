@@ -23,7 +23,7 @@ export default function Hero() {
         </button>
       </Link>
 
-      <Image className="md:shadow-xl bg-white p-4 rounded-[20px] mt-16"
+      <Image className="md:shadow-2xl bg-white p-4 rounded-[20px] mt-16"
         src="/notion-phone.png"
         alt="Notion Cal second picture"
         width={1500}

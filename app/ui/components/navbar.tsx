@@ -18,9 +18,9 @@ const navLinks = [
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="sticky top-0 bg-white text-black p-4  shadow-md font-bold">
-            <div className="container flex mx-auto md:justify-center justify-between items-center relative">
-                <div className="absolute left-4 justify-between items-center flex">
+        <nav className="sticky top-0 bg-white text-black p-7 shadow-md font-bold justify-between">
+            <div className="flex mx-auto justify-center items-center relative">
+                <div className="md:left-4 absolute left-4 items-center flex">
                     <Image
                         src="/notion-icon.svg"
                         alt="Notion Logo"
@@ -30,13 +30,22 @@ export function Navbar() {
                 </div>
                 <div className="hidden md:flex space-x-4">
                     {navLinks.map((link) => (
-                        <Link key={link.label} href={link.href} className="">
+                        <Link key={link.label} href={link.href} className="hover:bg-gray-100 hover:rounded-sm hover:transition-all">
                             {link.label}
                         </Link>
                     ))}
                 </div>
-                <div className="md:hidden">
-                    <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
+
+                <div className="md:absolute md:right-1 ">
+                    <Link className="md:mb-8 " href="/">
+                        <button className=" bg-black text-white items-end font-semiboldor hover:bg-gray-600 transition p-2 rounded-md">
+                            Get Notion Calendar free
+                        </button>
+                    </Link>
+                </div>
+
+                <div className="md:hidden absolute right-1 p-2 text-3xl">
+                    <button onClick={() => setIsOpen(!isOpen)} className="">
                         ☰
                     </button>
 
@@ -50,6 +59,7 @@ export function Navbar() {
                         </Link>
                     ))}
                 </div>
+
             )}
         </nav >
     );
